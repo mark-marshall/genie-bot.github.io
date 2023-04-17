@@ -10,31 +10,6 @@
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@600&family=Noto+Sans:wght@400&display=swap" rel="stylesheet">
-      <script>
-         let curIdx = 0
-         const testimonialsArr = [
-           {
-               quote: '"I feel in very safe hands with bletchleys. Amie has shown a lot of care and consideration to my circumstances and tailored investments to suit. I can honestly say that I have been impressed with all of the advise so far."',
-               author: 'Maxine H - Pensions & Investments'
-           },
-           {
-               quote: '"Whether you are looking for private or company pensions, life insurance or sound investment advice, bletchleys provides a quality service. Amie manages our company pension scheme which benefits all 40 of our employees"',
-               author: 'Andrew W - Business & Pensions'
-           }
-         ]
-         setInterval(() => {
-           if(curIdx + 1 <= (testimonialsArr.length -1)){
-               curIdx += 1
-           } else {
-               curIdx = 0
-           }
-           const {quote, author} = testimonialsArr[curIdx]
-           const curQuote = document.getElementById('testimonial-quote');
-           const curAuthor = document.getElementById('testimonial-author');
-           curQuote.innerHTML = quote;
-           curAuthor.innerHTML = author;
-         }, 5000);
-      </script>
    </head>
    <body>
    </body>
