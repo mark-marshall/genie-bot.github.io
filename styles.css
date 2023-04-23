@@ -148,3 +148,32 @@ h1 {
     padding-bottom: 50px;
     text-align: center;
 }
+
+.how-it-works {
+  padding-top: 50px;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.steps p {
+  padding: 25px;
+  background: lightblue;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.contact {
+  text-align: center;
+  padding-top: 15px;
+}
+
+a {
+  font-size: 2.1rem;
+  color: cornflowerblue;
+  text-decoration: none;
+}
